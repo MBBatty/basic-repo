@@ -46,6 +46,8 @@ once they're past that -- they'll be making changes in the git repo (this is the
 (COME BACK HERE WHEN TIM SAYS ADD AND COMMIT AND PUSH A FILE)
 When get there, there are three commands they only really need to deal with (A FILE THAT NEEDS TO BE ADDED TO GIT-HUB, OR IN OTHER WORDS,PUSHED TO GIT-HUB: git add, git commit, git push. (The only way they would have known this was retaining (separating it from the mass) and applying it from what was taught in class, but Tim giving me the steps, below)
 
+*IMPORTANT* esp for this file -- every time modify it have to git add git commit git push again or will show red
+
 (1) move notes file into the git repo (physically go to the folder and do it -- could do it in terminal with mv, but it's a little tricky, the command hasn't been taught or emphasized -- Tim doesn't expect this to be used a lot -- so for now, do it the old school way) THIS IS WHERE THE NOTES WILL LIVE FROM HERE ON.
 
 (2) git add is the next command we'll use; git add . will add everything in that folder to your staging area in git (on your computer, not on github website)
@@ -53,7 +55,7 @@ When get there, there are three commands they only really need to deal with (A F
 (git status is good to then use -- and repeatedly -- to find out what the status (what's been added, if it's ready for commit or not, etc. red not ready, empty, nothing there, green, ready to commit, etc.) is -- almost the WAY you'd use ls to keep checking what's in it. ls everything in folder; git status show you what's added but not committed yet)…will tell you if a file is in a folder
 
 so when file is green, it's in the "staging area" -- you're ready to commit. how to:
-(3) git commit -m "(nameyouwantyourcommittobeincludingwhy)" i.e. git commit -m "added file with homework 1" (how would you have known how to do this? not sure -- google, check with classmates, ask when you run into that sort of snag -- but honestly, i had to have Tim walk me through. we're working on it!)
+(3) git commit -m "(nameyouwantyourcommittobeincludingwhy)" i.e. git commit -m "added file with homework 1"...literally use the quote marks. (how would you have known how to do this? not sure -- google, check with classmates, ask when you run into that sort of snag -- but honestly, i had to have Tim walk me through. we're working on it!) enter to execute -- remember use arrows to navigate there
 
 (git status again just to see where we are)
 
