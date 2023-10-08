@@ -123,7 +123,7 @@ I (for insert mode)
 Esc (to stop inserting)
 :wq (to save and exit)
 :q! (to exit without saving)
-VIM Adventures - https://vim-adventures.com/ 
+VIM Adventures - https://vim-adventures.com/ (a website that teaches you VIM commands in the form of a game)
 
 (my notes from with him)
 Vim is a text editor built into the terminal (vi is the command that uses it)
@@ -154,3 +154,21 @@ $ chmod u+rx my-script.sh
 $ ./my-script.sh
 $ echo “the files in this folder are: ” >> my-script.sh
 $ echo ls >> my-script.sh
+
+below, to get from "create the folder" to "after you create the git repo" YOU NEED TO TURN THE FOLDER INTO A REPO -- to do that, you have to be INSIDE the new folder. so after mkdir you have to cd the new thing, THEN you'll create the git repo
+
+(Tim's second homework)
+You can create the folder on your computer from the command line by typing: 
+mkdir first-shell-script
+A shell script is the simplest program you can write, but can be very powerful.  Almost any command you can run in a terminal can be run in a shell script.
+After you create the git repo and link it to your GitHub repo, follow these commands to create and run the shell script:
+
+(SO after inside the new folder, "create the git repo" by (1) creating in git hub by repository create new it'll give the MBBatty/ in that space provided, mark public, create repository then create in git bash by git init)
+
+***CREATE A REPO So it's: (1) create folder on computer (2) get in folder (3) create git repo on github (4) create on git bash by git init and (5) git add, git commit, git push to link 'em BEFORE proceed. REMEMBER -- CAN 4 AND 5 BY COPYING THE CODE PROVIDED ON GITHUB. this is ***basic
+
+cat ./(name of a file) will display the contents of a file without opening it
+
+chmod u+rx my-script.sh -- chmod gives you permission to be read (open and read it) write (edit it) or execute (run it)
+
+***when tim asks to post a link, paste as plain text because windows converts it weird (may have to do in a word file or something if won't directly plain text)
