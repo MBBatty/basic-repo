@@ -44,6 +44,17 @@ HUGE THING -- NEED TO MAKE SURE YOU'RE IN THE RIGHT PLACE BEFORE YOU CREATE A GI
 
 once they're past that -- they'll be making changes in the git repo (this is the final piece of the first homework: "Put the text file we created in class for notes in the git repository and push it to GitHub.")
 (COME BACK HERE WHEN TIM SAYS ADD AND COMMIT AND PUSH A FILE)
+
+Tim's basic notes from Class 2:
+***Core Git Commands***
+git config –list - shows your configuration
+git init - creates repository
+git add . - adds all the files in this folder to the staging area in git
+git commit -m “my commit message” - will commit the changes in your staging area to a save point called a commit with the name “my commit message”
+git push - will push your code to your repo in GitHub
+git pull - will pull the changes from your GitHub repository
+
+Below are my notes
 When get there, there are three commands they only really need to deal with (A FILE THAT NEEDS TO BE ADDED TO GIT-HUB, OR IN OTHER WORDS,PUSHED TO GIT-HUB: git add, git commit, git push. (The only way they would have known this was retaining (separating it from the mass) and applying it from what was taught in class, but Tim giving me the steps, below)
 
 *IMPORTANT* esp for this file -- every time modify it have to git add git commit git push again or will show red
@@ -103,6 +114,18 @@ Tutorialspoint.com/html/html_basic_tags.htm
 Create a github repo named basic website; inside that create a file called index.html; inside that the code he just showed us (Tutorialspoint.com/html/html_basic_tags.htm)
 10-7-23 STARTING OVER FROM FIRST HOMEWORK ONLY NOW DOING FOR WINDOWS WITH VS CODE INSTEAD OF NOTEPAD
 Tip: just hyphens or underscore in names of files and folders -- not periods not apostrophes etc. those can cause bugs because they can mean something different (break up a string) in different languages. Can be read as quote marks, etc. 
+
+Tim's notes from class 2
+***VIM (aka VI)
+Most important commands
+H, J, K L (keys for moving around)
+I (for insert mode)
+Esc (to stop inserting)
+:wq (to save and exit)
+:q! (to exit without saving)
+VIM Adventures - https://vim-adventures.com/ 
+
+(my notes from with him)
 Vim is a text editor built into the terminal (vi is the command that uses it)
 Vi read me would open up read me 
 I for insert – can type now, move around with arrows (isn’t a mouse interface)
@@ -121,3 +144,13 @@ Pull down file to New file. end it with .txt…remember no apostrophes etc only 
 …but easier is the little file beside that name
 
 in vs code -- it's pull down file and save. (if needed...may be auto saving )
+
+for homework tk
+***Shell Scripts 
+$ mkdir first-shell-script
+$ echo '#!/bin/sh' > my-script.sh
+$ echo 'echo Hello World' >> my-script.sh
+$ chmod u+rx my-script.sh
+$ ./my-script.sh
+$ echo “the files in this folder are: ” >> my-script.sh
+$ echo ls >> my-script.sh
