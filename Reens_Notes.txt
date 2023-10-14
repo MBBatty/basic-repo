@@ -13,7 +13,7 @@ Git -- an application you download to your computer! -- is a specific open-sourc
 
 GitHub -- a website! -- is a for-profit company that offers a cloud-based Git repository-hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration. GitHub helps developers store and manage their code, as well as track and control changes to their code. 
 
-pwd stands for “print working directory” (it tells me the file path of the folder I’m in in the terminal I’m in)
+pwd stands for “print working directory” (it tells me the file path of the folder I’m in in the terminal I’m in -- PWD tells what directory i'm, check that  )
 The command “ls –a” (ls=list, a=all) lists all the folders I’m in – hidden etc. I’m using this to see everything in current folder I’m in (when in the terminal)
 
 To open a new "terminal" (the black window from which you code), go to search bar and search for Git Bash -- when options come up open the app by that name. WHENEVER YOU OPEN A GIT BASH TERMINAL, IT OPENS IN YOUR HOME DIRECTORY. (it's a window into your operating system, a portal into your filing system -- a way of navigating, seeing the man behind the curtain)
@@ -172,3 +172,10 @@ cat ./(name of a file) will display the contents of a file without opening it
 chmod u+rx my-script.sh -- chmod gives you permission to be read (open and read it) write (edit it) or execute (run it)
 
 ***when tim asks to post a link, paste as plain text because windows converts it weird (may have to do in a word file or something if won't directly plain text)
+
+as of 10/14/23 (before soccer) I'm done creating SSH key and ready to pick up with: 
+Tim Batty
+Created Oct 2Oct 2
+Here are the notes from last week that I wanted to go over but did not have time.  They are mostly about the terminal and using UNIX commands to interact with it.
+
+And heading TOWARD Oct. 3 homework. (Need to catch up there on)
