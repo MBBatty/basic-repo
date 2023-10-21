@@ -30,11 +30,15 @@ cd=change directory -- how i'd get where i wanna go from where i am. follow that
 
 (wanna back it up? type cd .. (no spaces between periods) and it will go back i.e. from desktop/iewetc/coding to desktop/iewetc (can do repeatedly to back up)
 
+don't ever open a file in visual studio -- only folders
+
 prompt= the place where you'd type. COMMAND line prompt is another way of saying it (the more coder-y way)
 
 in git-hub (and some other sites) copy symbol upper right hand corner allows you to copy whole block of code (rather than type each line in yourself) 
 
-mkdir command creates a folder; touch command creates a file
+mkdir command creates a folder
+
+touch command creates a file
 
 FROM HIS FIRST YOUTUBE VIDEO: BASIC NAVIGATION= pwd, ls, cd
 
@@ -167,6 +171,8 @@ After you create the git repo and link it to your GitHub repo, follow these comm
 
 ***CREATE A REPO So it's: (1) create folder on computer (2) get in folder (3) create git repo on github (4) create on git bash by git init and (5) git add, git commit, git push to link 'em BEFORE proceed. REMEMBER -- CAN 4 AND 5 BY COPYING THE CODE PROVIDED ON GITHUB. this is ***basic
 
+all git commands are managing git repos; that's just a fancy folder that has special capability of saving everything inside of it. so a git-init would not create ANY file, just a git repo -- turn a folder into a git repo
+
 cat ./(name of a file) will display the contents of a file without opening it
 
 chmod u+rx my-script.sh -- chmod gives you permission to be read (open and read it) write (edit it) or execute (run it)
@@ -178,4 +184,10 @@ Tim Batty
 Created Oct 2Oct 2
 Here are the notes from last week that I wanted to go over but did not have time.  They are mostly about the terminal and using UNIX commands to interact with it.
 
-And heading TOWARD Oct. 3 homework. (Need to catch up there on)
+10/21/23 tackling Oct. 3 homework. 
+
+Don't ever put a repo inside a repo (so almost anything, pwd to cd/mauree/repos -- but no further)
+
+run -- running a shell script is basically just typing the name of the file and hitting enter. 
+
+a repo is always a folder -- a special kind of folder
