@@ -191,3 +191,5 @@ Don't ever put a repo inside a repo (so almost anything, pwd to cd/mauree/repos 
 run -- running a shell script is basically just typing the name of the file and hitting enter. 
 
 a repo is always a folder -- a special kind of folder
+
+11:05 a.m. 10/21/23 -- pick up at Step 8 Oct. 8 homework -- need to finish adding stuff i.e. a hyperlink <a> and an image <img> using HTML tags
