@@ -62,6 +62,7 @@ Below are my notes
 When get there, there are three commands they only really need to deal with (A FILE THAT NEEDS TO BE ADDED TO GIT-HUB, OR IN OTHER WORDS,PUSHED TO GIT-HUB: git add, git commit, git push. (The only way they would have known this was retaining (separating it from the mass) and applying it from what was taught in class, but Tim giving me the steps, below)
 
 *IMPORTANT* esp for this file -- every time modify it have to git add git commit git push again or will show red
+10/23 reminder: this file is in ~/repos/basic-repo 
 
 (1) move notes file into the git repo (physically go to the folder and do it -- could do it in terminal with mv, but it's a little tricky, the command hasn't been taught or emphasized -- Tim doesn't expect this to be used a lot -- so for now, do it the old school way) THIS IS WHERE THE NOTES WILL LIVE FROM HERE ON.
 
@@ -192,4 +193,56 @@ run -- running a shell script is basically just typing the name of the file and 
 
 a repo is always a folder -- a special kind of folder
 
-11:05 a.m. 10/21/23 -- pick up at Step 8 Oct. 8 homework -- need to finish adding stuff i.e. a hyperlink <a> and an image <img> using HTML tags
+11:05 a.m. 10/21/23 -- pick up at Step 8 Oct. 3  homework -- need to finish adding stuff i.e. a hyperlink <a> and an image <img> using HTML tags
+
+below from https://www.tutorialspoint.com/html/html_text_links.htm
+A webpage can contain various links that take you directly to other pages and even specific parts of a given page. These links are known as hyperlinks.
+
+Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images. Thus you can create hyperlinks using text or images available on a webpage.
+
+to actually look at the website you created go to the run and debug arrow looking thingy on the lefthand bar; from there, you can also copy the "absolute file path" so you can see what you've done in the future (run and debug may only run the first time)
+
+so my website can be found at file:///C:/Users/maure/repos/basic-website/index.html
+
+when copying images take out attributes unless you're messing with that -- that is where you'd mess with size BTW (style attribute) so instead of <img src = "SnakePic.jpg" ... attributes-list/> if not messing with size etc simple version is <img src = "SnakePic.jpg"/> (might work or they may require a alt attribute)
+
+most of the HTML tags can also have attributes, which are extra bits of information.
+
+An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts − a name and a value
+
+The name is the property you want to set. For example, the paragraph <p> element in the example carries an attribute whose name is align, which you can use to indicate the alignment of paragraph on the page.
+
+The value is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: left, center and right. https://www.tutorialspoint.com/html/html_attributes.htm
+
+to look at the other kids' websites -- go to their link -- then in github pull down the green "Code" button to copy the link, then clone:
+
+i.e.
+https://github.com/okThisIsTony/basic-website.git
+
+here's how to look at it after i cloned and then again did the run and debug/chrome thing here (run and debug is the sideways triangleish thing about four down on left)
+
+to check out Anthony's first website file:///C:/Users/maure/repos/Anthony%20basic%20website/basic-website/index.html
+to check out Caleb's first website file:///C:/Users/maure/repos/Caleb%20basic%20website/basic-website/index.html
+to check out King's first website file:///C:/Users/maure/repos/King%20basic%20website/basic-website/index.html
+ as of 10/23 11:20 a.m.:
+champion's is up but empty: https://github.com/champslays/basic-website
+no caleb J
+no isaiah
+no noah
+
+for future -- don't want to be in my basic website to clone -- same name 
+
+also tim to caleb about absolute file path etc: One thing that you will want to do is to move or make a copy of the image and put it in your basic-website folder next to the index.html.  Then reference the image in your repo.  Right now you have what is called an absolute file path (/home/caleb/Pictures/joe-cool.jpeg).  You want to use a relative file path that starts where the index.html file is, so if the joe-cool.jpeg image was in your repo, you would just type "joe-cool.jpeg".  Also, you need to add a hyperlink to your website.  The tag for it in HTML is an <a></a> tag.
+
+The target Attribute
+We have used target attribute in our previous example. This attribute is used to specify the location where linked document is opened.
+go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- definitely helpful options and examples i.e.:
+<body>
+      <p>Click any of the following links</p>
+      <a href = "/html/index.htm" target = "_blank">Opens in New</a> |
+      <a href = "/html/index.htm" target = "_self">Opens in Self</a> |
+      <a href = "/html/index.htm" target = "_parent">Opens in Parent</a> |
+      <a href = "/html/index.htm" target = "_top">Opens in Body</a>
+   </body>
+
+   as of 11:20 a.m. 10/23, finished with Oct. 3 homework -- pushing this before pick up with Oct. 11
