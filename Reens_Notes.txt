@@ -20,7 +20,10 @@ To open a new "terminal" (the black window from which you code), go to search ba
 
 (the "git init" command created a git (not git HUB) repository on my COMPUTER) (git hub is the website; git is the application on my computer)
 
-(make a mistake? rm -rf "whateverremoving" (spaced just like that, and don't actually use the quote marks) BUT USE CAREFULLY -- dangerous command, can wipe out all if you're not careful and intentional about WHAT rm -rf-ing... (rm = remove r = recursively (in other words, doesn't just delete top level folder, but everything inside it -- PERSONAL would take out bills, etc.) and f=force -- no matter what permissions required. cannot be stopped) -- p.s., no "output" (nothing shown in screen) unless there's an error -- just gives you the next prompt
+(make a mistake IN CREATING A FOLDER? rm -rf "whateverremoving" (spaced just like that, and don't actually use the quote marks) BUT USE CAREFULLY -- dangerous command, can wipe out all if you're not careful and intentional about WHAT rm -rf-ing... (rm = remove r = recursively (in other words, doesn't just delete top level folder, but everything inside it -- PERSONAL would take out bills, etc.) and f=force -- no matter what permissions required. cannot be stopped) -- p.s., no "output" (nothing shown in screen) unless there's an error -- just gives you the next prompt
+
+IF YOU JUST want to remove a file: rm "file name" (don't need quotes)
+
 ***Tim – need to redo video – don’t show them delete rm rf stuff it’s confusing (plus dangerous) get rid of what shouldn’t be there and do it straightforward
 cd=change directory -- how i'd get where i wanna go from where i am. follow that with space then the folder you want to go in. to follow the path faster, start the folder name (starting at top) EXACTLY as written -- same capitalization -- and tab will "auto complete" (fill in rest of that part) to help get there faster  **NOTE -- if you do "cd" and enter ONLY, it will take you straight to the top...must follow it with something not to end up at the beginning. *** if you want to go to the most recent specific directory you were in, "cd -" should get you there...a second time should get you to the NEXT most recent
 
@@ -38,7 +41,7 @@ in git-hub (and some other sites) copy symbol upper right hand corner allows you
 
 mkdir command creates a folder
 
-touch command creates a file
+touch command creates a file -- has to be all one word i.e. temporarytotry (if you do touch temporary to try you just created three files)
 
 FROM HIS FIRST YOUTUBE VIDEO: BASIC NAVIGATION= pwd, ls, cd
 
@@ -202,7 +205,7 @@ Hyperlinks allow visitors to navigate between Web sites by clicking on words, ph
 
 to actually look at the website you created go to the run and debug arrow looking thingy on the lefthand bar; from there, you can also copy the "absolute file path" so you can see what you've done in the future (run and debug may only run the first time)
 
-so my website can be found at file:///C:/Users/maure/repos/basic-website/index.html
+***so my (first)website can be found at file:///C:/Users/maure/repos/basic-website/index.html ***
 
 when copying images take out attributes unless you're messing with that -- that is where you'd mess with size BTW (style attribute) so instead of <img src = "SnakePic.jpg" ... attributes-list/> if not messing with size etc simple version is <img src = "SnakePic.jpg"/> (might work or they may require a alt attribute)
 
@@ -246,3 +249,18 @@ go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- d
    </body>
 
    as of 11:20 a.m. 10/23, finished with Oct. 3 homework -- pushing this before pick up with Oct. 11
+
+   Oct. 11 homework: This week we will be looking at CSS.  Please watch this video and follow along with it to add some styling to your basic-website web pages.  Go ahead and use your internet searching skills to find different styles and cool things you can do to spice up your website.  Have fun! https://youtu.be/XhcGodUSVyU
+
+   link command unique -- don't need a / to close, only one command within
+
+   tim note -- almost impossible to copy the code unless write it down separately, at least with my screen (see 5:09 css video) 
+
+   to do 
+   -- make my snake picture way, way smaller (figure out how to size)
+   -- mess with border more?
+   -- center heading over image?
+   -- (Tim to consider later): suggest update or add note to Luke-style or redo the video Add CSS to a Website to note another way than run and debug to see their website -- super important they keep their line for that from the first time: file:///C:/Users/maure/repos/basic-website/index.html (maybe save as a favorite)
+   -- suggest: can't emphasize enough to expect what shown might not work with constantly changing version and etc. -- if something in a video doesn't work for you, start investigating 
+   
+   committing 2:40 p.m. 10-23 post basic CSS styling -- Oct. 11 homework
