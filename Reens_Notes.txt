@@ -264,3 +264,10 @@ go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- d
    -- suggest: can't emphasize enough to expect what shown might not work with constantly changing version and etc. -- if something in a video doesn't work for you, start investigating 
    
    committing 2:40 p.m. 10-23 post basic CSS styling -- Oct. 11 homework
+
+   create a repo 
+   quickest way: 
+   create repo 
+
+   ctrl (command on mac) shift plus = zoom in (i.e. make terminal letters bigger)
+   file:///C:/Users/maure/repos/javascript-website/index.html for that site 
