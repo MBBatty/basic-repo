@@ -271,3 +271,17 @@ go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- d
 
    ctrl (command on mac) shift plus = zoom in (i.e. make terminal letters bigger)
    file:///C:/Users/maure/repos/javascript-website/index.html for that site 
+
+   button onclick to add a button then make it do something -- getting into javascript!
+   https://www.youtube.com/watch?v=edFC51qNWoU between 6 minutes and 6:30
+
+   a pure javascript file will always have a .js at the end
+   you need to close a carrot for it to pop up the rest of code 
+   i.e. <button by itself won't add anything
+   but <button> IT will add </button> automatically
+
+   call a method=?
+   document is a magic word that references what's on your index.html file?
+   when say getElementbyID (followed for example by output)-- hey we're looking for a specific element that has the id of "output" -- about 11 minutes 51 seconds in https://www.youtube.com/watch?v=edFC51qNWoU
+   super important you call (the method?) the correct title -- OnPress will not call OnClick etc.
+   should have ; at end of each line *of code* in javascript
