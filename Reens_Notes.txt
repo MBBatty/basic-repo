@@ -265,6 +265,9 @@ go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- d
    
    committing 2:40 p.m. 10-23 post basic CSS styling -- Oct. 11 homework
 
+(Oct. 17 homework as of 11-10-23 Tim talk, not a necessity -- might help to circle back)
+
+  (not sure where below is from -- the javascript Oct. 24 homework?)
    create a repo 
    quickest way: 
    create repo 
@@ -283,5 +286,20 @@ go here for more -- https://www.tutorialspoint.com/html/html_text_links.htm -- d
    call a method=?
    document is a magic word that references what's on your index.html file?
    when say getElementbyID (followed for example by output)-- hey we're looking for a specific element that has the id of "output" -- about 11 minutes 51 seconds in https://www.youtube.com/watch?v=edFC51qNWoU
-   super important you call (the method?) the correct title -- OnPress will not call OnClick etc.
-   should have ; at end of each line *of code* in javascript
+   super important you call (the method?) the correct title -- "OnPress" will not call "OnClick" etc.
+   in javascript should have ; at end of each line *of code* 
+
+   11/10/23 Check in 
+   Done (through) Oct. 11
+   Haven't done Oct. 17 but Tim says not a must (a placeholder, give kids caught up something to solidify, give those behind a chance to catch up)
+   Priority is Oct. 23 -- continuing with building javascript
+   Haven't done Oct. 31 but again Tim says not a must (a placeholder, give kids caught up something to solidify, give those behind a chance to catch up)
+
+Picking back up video at 15 minutes -- doing an input
+48 minutes later by next diffuse -- to 16.41 of 22 minutes. hoping now refamiliar will go more quickly? had to circle back to even see ( vs {})
+yes done within 13 minutes
+
+10:06 a.m. going to post website; 10:11 looking at 10/31 homework video -- til 10:20 oh my goodness too tiny blurry to see
+10:20 a.m. going to start playing with it (only 2 views in 8 days)
+10:23 stumped -- "In the mini-browser, open the menu by clicking the “hamburger” icon in the upper right corner." -- i see nothing like that. google mini browser -- try on mobile site -- google hamburger. LOOKING FOR ACTUAL HAMBURGER. no idea that's "A hamburger icon (slide drawer navigation) is a navigational symbol in user interface (UI) design. It consists of three stacked horizontal lines that indicate the presence and location of a hidden menu." by 10:28 back to it (had to start over going back to first page but done by 10:30)
+done next by 10:32 -- but cooked for now.
