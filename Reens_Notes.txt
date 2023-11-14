@@ -303,3 +303,33 @@ yes done within 13 minutes
 10:20 a.m. going to start playing with it (only 2 views in 8 days)
 10:23 stumped -- "In the mini-browser, open the menu by clicking the “hamburger” icon in the upper right corner." -- i see nothing like that. google mini browser -- try on mobile site -- google hamburger. LOOKING FOR ACTUAL HAMBURGER. no idea that's "A hamburger icon (slide drawer navigation) is a navigational symbol in user interface (UI) design. It consists of three stacked horizontal lines that indicate the presence and location of a hidden menu." by 10:28 back to it (had to start over going back to first page but done by 10:30)
 done next by 10:32 -- but cooked for now.
+
+11/14/23 5:37 a.m. about "showing you how to reference objects" in JavaScript Objects and Arrays you tube video around minute around 13:58 "const" is a good keyword to use (you should?) use for defining a variable" -- verify that with him?
+
+objects are represented by curly brackets { } and by key-value pairs
+
+keys have (need) quotes in json, not in javascript file (json -- a configuration file -- is javascript object notation)
+
+A configuration file, often shortened to config file, defines the parameters, options, settings and preferences applied to operating systems. A configuration file (config file) is code on your computer that allows the selection of various features and settings. It can determine parameters, preferences, and alternative options in the many realms of your IT environment.
+
+Tim: "Javascript object notation" (JSON) is what's used to send (things) send data over the internet from back-end APIs....can be converted into an object if you receive it it looks just like but the one key difference is with JSON, the keys have quotes around them
+
+Google (what are back-end APIs) 
+(1) A back-end API is a programming interface that helps developers to interact with back-end services for example server. 
+(2) What is Back-End Development? The back-end, also called the server-side, consists of the server which provides data on request, the application that channels it, and the database which organizes the information. For example, when a customer browses shoes on a website, they are interacting with the front end.
+(3) What is backend servers? The backend (or “server side”) is the portion of the website you don't see. It's responsible for storing and organizing data, and ensuring everything on the client-side actually works. The backend communicates with the frontend, sending and receiving information to be displayed as a web page.
+(4) The backend refers to devices that respond to ending user activities or requests, for example, routers, network servers, and email servers.
+
+argh minute 16:12-16 somewhere says "look at this says "hello bob" -- you have to watch his cursor. pop up window is distracting!
+
+const is the default, if you're going to change the value later you would use a let
+
+babe you type so fast -- i have to pause to follow exactly and then verify what i''m missing if it doesn't work, etc. 20 minute video going on 3 hours of work -- not to mention stopping to google to look up what you assume i retained from a reference in the past, etc. Lord God reveal to me what's for his good, the kids' good, the parents' good here that is mine to do -- or not do. This isn't a complaint that it's hours -- it's a reality he needs to consider if he wants to be a success if he wants to love them for their good -- sensible expectations, sensible trajectory. For himself too -- driving himself into the ground.
+
+clear difference between strings and objects -- but doesn't clarify why use a (more complicated appearing) object over a string this is just a list of strings whereas this is a list of strings that have objects in them -- but WHY. feels left hanging
+
+So. Much. Information. Needs more intentionality about capacity -- just does. 
+
+i.e. 0 is the first object in a list
+
+list tends to be more complex; array tends to be more simple. Using list to help you understand what it is; array is basically a list of values. 
