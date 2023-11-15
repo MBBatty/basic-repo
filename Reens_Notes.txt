@@ -333,3 +333,7 @@ So. Much. Information. Needs more intentionality about capacity -- just does.
 i.e. 0 is the first object in a list
 
 list tends to be more complex; array tends to be more simple. Using list to help you understand what it is; array is basically a list of values. 
+
+11/14 last few minutes just to watch -- catcatination? arghs? around minute 20
+
+every language has a concept of a list; every language has a concept of an object (might be called something slightly different)
