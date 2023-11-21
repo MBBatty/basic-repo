@@ -337,3 +337,16 @@ list tends to be more complex; array tends to be more simple. Using list to help
 11/14 last few minutes just to watch -- catcatination? arghs? around minute 20
 
 every language has a concept of a list; every language has a concept of an object (might be called something slightly different)
+
+11/21 
+a library is basically a list of functions that you have access to that will help you do cool things
+
+ajax is an acronym that's about making calls to rest APIs
+
+
+if/as time go back and read: https://www.w3schools.com/jquery/jquery_ajax_get_post.asp
+(difference between get and post)
+if/when time look up API status (from https://www.youtube.com/watch?v=03SOk8hSgsQ around minute 8:30)
+if means only do something if what's in these parentheses is true around minute 9:55ish
+if you want to search for something with lists search javascript array
+left off youtube https://www.youtube.com/watch?v=03SOk8hSgsQ 22 minutes
