@@ -375,3 +375,10 @@ http status codes (different kinds; 200 is a success. Google it and you can find
 another way to do header code than h2 would be document.create
 
 tag also called an element
+
+ctrl alt v to extract a variable in abracadabra (command z can put back the way it was)
+from 12/19/23 homework, Adding Prettier and Abracadabra extensions to VSCode: lot of refactoring "extract function, extract variable are two very very important ones...i'll let you guys come through and explore some of these see what they are" (the abracadabra refactorings listed here: https://github.com/nicoespeon/abracadabra/blob/main/REFACTORINGS.md#extract-variable ) -- read, figure out what they are, see if you want to try and use 'em -- "see what you like and what makes it easier; the whole purpose of this is to make it easier to write code"
+
+to redo
+ctrl shift Z 
+ctrl y
