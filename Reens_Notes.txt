@@ -328,6 +328,8 @@ babe you type so fast -- i have to pause to follow exactly and then verify what 
 
 clear difference between strings and objects -- but doesn't clarify why use a (more complicated appearing) object over a string this is just a list of strings whereas this is a list of strings that have objects in them -- but WHY. feels left hanging
 
+(Tim 1/15/24: "So say if you have a list of strings, those strings can only be names or URLs or some kind of thing that would be a word. For example, with a list of names -- what if you wanted to the ages of those people? How would you reference a person from that list and know their age too? So if you had a list of objects, it could contain both the name of the person and their age -- so you'd have more info when you looked 'em up )
+
 So. Much. Information. Needs more intentionality about capacity -- just does. 
 
 i.e. 0 is the first object in a list
@@ -382,3 +384,103 @@ from 12/19/23 homework, Adding Prettier and Abracadabra extensions to VSCode: lo
 to redo
 ctrl shift Z 
 ctrl y
+
+1/15/24 trying Tim's first quiz, JavaScript Quiz...notes 
+
+JavaScript is one of the 3 languages all web developers must learn:
+
+   1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+from w3schools:
+
+Variables are Containers for Storing Data (It is considered good programming practice to always declare variables before use.)
+
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var (only used for old code used from 1995-2015)
+Using let
+Using const
+
+(automatically:)
+x = 5;
+y = 6;
+z = x + y;
+
+From the examples you can guess:
+
+x stores the value 5
+y stores the value 6
+z stores the value 11
+
+other ways of declaring variables
+
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+The two variables price1 and price2 are declared with the const keyword.
+   * These are constant values and cannot be changed.
+   * Always use const if the value should not be changed
+   * Always use const if the type should not be changed (Arrays and Objects)
+The variable total is declared with the let keyword.
+   * The value total can be changed.
+   * Only use let if you can't use const
+   * (Only use var if you MUST support old browsers.)
+
+JavaScript variables can hold numbers like 100 and text values like "John Doe".
+
+In programming, text values are called text strings.
+
+JavaScript can handle many types of data, but for now, just think of numbers and strings.
+
+Strings are written inside doublle or single quotes. Numbers are written without quotes.
+
+If you put a number in quotes, it will be treated as a text string.
+
+Declaring a JavaScript Variable
+Creating a variable in JavaScript is called "declaring" a variable.
+(from another search: Declaration declares the creation of variables and functions. Initialization assigns initial values to variables.)
+(MB note -- so Tim's question: Which of the following is an example of declaring and initializing a variable named "name"? is saying "which of the following is an example of *creating* and *assigning an initial value to* a *container for storing data* named "name"? )
+
+After the declaration, the variable has no value (technically it is undefined).
+
+To assign a value to the variable, use the equal sign:
+
+carName = "Volvo";
+
+from discussing with Tim after put in an hour trying -- 
+
+Which of the following is an example of declaring and initializing a variable named "name"?
+
+i thought name = "Bob"; 
+
+no
+
+it's const name = 'Bob';
+
+Tim: const name is just declaring a variable --  basically, it's telling the computer I'm creating a variable called name but it has no value yet
+whereas name = "Bob" is JUST initializing it, no declaring at all (if you try to initialize a variable that has not been declared, it will give you an error)
+
+I thought How would you reference the second item in a list (array) named "ages"?
+
+was ages{1}; (thinking an item was curly brackets)
+
+Tim: no correct answer is ages[1];
+
+"you reference an item in a list with square brackets including the number of the index" (so the second number in the index would be one because starts at zero) 
+
+
+re: 
+
+If you have a variable named "user" of an object with a field named "age", which of the following is an example of referencing the "age" field? 
+
+Tim: there's creation of a variable or an object or a function or a list, and then there's referencing (a variable or an object or a function or a list). All of these things have two forms, the creation of them and reference of them. 
+
+SO an example of creating an age field would be (must be in an object): const user = {age:10};
+ (so user is an object that contains a key/value pair -- the key is age, the value is 10)
+ an example of referencing an age field would be: user.age;
+
