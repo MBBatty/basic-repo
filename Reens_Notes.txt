@@ -484,3 +484,10 @@ SO an example of creating an age field would be (must be in an object): const us
  (so user is an object that contains a key/value pair -- the key is age, the value is 10)
  an example of referencing an age field would be: user.age;
 
+1/22/24 doing last of hour of homework from 1/16/24 class...need to do:
+   *  on lucien's lasagna https://exercism.org/tracks/javascript/exercises/lasagna/edit he said (on the youtube video, around 6 minutes 33 seconds in) to "please read" the Function Declarations box and below that, Exposing to Other Files "very important to understand for the tests to work we have to have an export in front of a const or a function" THEN get to instructions (and he starts talking those through about 7 minutes and 11 seconds in)
+
+   Function Declarations
+In JavaScript, units of functionality are encapsulated in functions, usually grouping functions together in the same file if they belong together. These functions can take parameters (arguments), and can return a value using the return keyword. Functions are invoked using () syntax.
+
+*as stopping 6:59 p.m., 7 minutes 51 seconds in Tim showing where to put code asked how I would have known that -- I wouldn't, that's why he's doing video. Video's a must for doing this*
