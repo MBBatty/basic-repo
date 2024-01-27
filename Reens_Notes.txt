@@ -469,7 +469,7 @@ I thought How would you reference the second item in a list (array) named "ages"
 
 was ages{1}; (thinking an item was curly brackets)
 
-Tim: no correct answer is ages[1];
+Tim: no, correct answer is ages[1];
 
 "you reference an item in a list with square brackets including the number of the index" (so the second number in the index would be one because starts at zero) 
 
@@ -491,3 +491,41 @@ SO an example of creating an age field would be (must be in an object): const us
 In JavaScript, units of functionality are encapsulated in functions, usually grouping functions together in the same file if they belong together. These functions can take parameters (arguments), and can return a value using the return keyword. Functions are invoked using () syntax.
 
 *as stopping 6:59 p.m., 7 minutes 51 seconds in Tim showing where to put code asked how I would have known that -- I wouldn't, that's why he's doing video. Video's a must for doing this*
+
+Picking up 1/27/24
+
+(this from freecodecamp, knowing Tim is frustrated no one understands what a variable is)
+What are environment variables?
+Environment variables are predetermined values that are typically used to provide the ability to configure a value in your code from outside of your application.
+MY_SECRET_KEY environment variable used for authorization https://www.freecodecamp.org/news/what-are-environment-variables-and-how-can-i-use-them-with-gatsby-and-netlify/#what-are-environment-variables
+
+wikipedia: What is meant by environment variables?
+An environment variable is a user-definable value that can affect the way running processes will behave on a computer.
+
+(other googling) An environment variable is a pair of strings that is stored in a function's version-specific configuration. The Lambda runtime makes environment variables available to your code and sets additional environment variables that contain information about the function and invocation request.
+
+configure: shape or put together in a particular form or configuration.; (computing) arrange or order (a computer system or an element of it) so as to fit it for a designated task.
+
+Intro to JavaScript testing with Exercism homework from 1/16 https://www.youtube.com/watch?v=9Aof7vPeSHY around minute 7-8 SUPER SPECIFIC example of "first example is we want to create a variable...and then "define this" MEANS "we want to create a variable" "that's a const" (shows how you'd know that) and that "we want to assign it a value of 40" highlighting how you'd know THAT...toward the end of 7th minute shows you how and WHERE to create it.
+
+question for Tim -- what's the "to be" thing is that just telling you look you gotta create this?: expect(EXPECTED_MINUTES_IN_OVEN).toBe(40);
+
+ooh and the failure of an export like he mentioned earlier was important: around 8:13 ("very important to have an "export" before anything you need to export to tests) -- highlights examples throughout.
+from what originally mentioned:
+Exposing to Other Files
+To make a function, a constant, or a variable available in other files, they need to be exported using the export keyword. Another file may then import these using the import keyword. This is also known as the module system. A great example is how all the tests work. Each exercise has at least one file, for example lasagna.js, which contains the implementation. Additionally there is at least one other file, for example lasagna.spec.js, that contains the tests. This file imports the public (i.e. exported) entities in order to test the implementation:
+// file.js
+export const MY_VALUE = 10;
+
+export function add(num1, num2) {
+  return num1 + num2;
+}
+
+// file.spec.js
+import { MY_VALUE, add } from './file';
+
+add(MY_VALUE, 5);
+// => 15
+ 
+THE TEST RUNS IN A DIFFERENT FILE!
+(finished task one -- shown on homework video. Next priority -- quiz? or other tasks?)
