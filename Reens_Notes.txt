@@ -508,7 +508,19 @@ configure: shape or put together in a particular form or configuration.; (comput
 
 Intro to JavaScript testing with Exercism homework from 1/16 https://www.youtube.com/watch?v=9Aof7vPeSHY around minute 7-8 SUPER SPECIFIC example of "first example is we want to create a variable...and then "define this" MEANS "we want to create a variable" "that's a const" (shows how you'd know that) and that "we want to assign it a value of 40" highlighting how you'd know THAT...toward the end of 7th minute shows you how and WHERE to create it.
 
-question for Tim -- what's the "to be" thing is that just telling you look you gotta create this?: expect(EXPECTED_MINUTES_IN_OVEN).toBe(40);
+question for Tim -- what's the "to be" thing is that just telling you look you gotta create this?: expect(EXPECTED_MINUTES_IN_OVEN).toBe(40); (Tim: this is an interesting difference -- two "expects"-- expect is calling a function -- the dot after that -- toBe is calling a function in the same way expect is. whenever you see a word followed by parentheses, and no spaces (and it's not an if) it's a function call)
+SO knowing those are both function calls, do you have any questions about how the works? (question he was wanting me to ask if i understood more: if expect is a function call and toBe is a function call, why is there a dot there (between them)? the REASON )
+what is it in context of the expect function? in other words -- what would the signature of the expect function look like (the signature is everything you need to write to create an expect function)
+the word in the parantheses is a parameter (also known as argument). the reason we have parameters (in coding, it means a value that you pass into a function; a value can be any type, i.e. a string, a number, a list, an object, etc. -- those are the common "types" -- a coding word that means a type of data. referred to as a noun all the time. (if you think of as a type of variable or type of data, the word type might click more). 
+in this function signature (code from our javascript.js file): function onPress(inputName) -- the (inputName) is a parameter. this is where the inputName is being DECIDED -- it's being determined or created here. you can name this parameter anything you want -- if you name it here, though, you need to make sure you're referencing it -- in other words, using the same word -- inside the curly brackets after the function. but you can't use that -- inputName -- anywhere else to reference THIS inputName. 
+a foundational layer of how functions work: in the function call below:
+
+expect(EXPECTED_MINUTES_IN_OVEN).toBe(40)
+
+40 is being passed into the function toBe() as a parameter 
+(Tim would ID functions with an empty parens after just to indicate it's a function) 
+so EXPECTED_MINUTES_IN_OVEN is a variable
+
 
 ooh and the failure of an export like he mentioned earlier was important: around 8:13 ("very important to have an "export" before anything you need to export to tests) -- highlights examples throughout.
 from what originally mentioned:
@@ -529,3 +541,45 @@ add(MY_VALUE, 5);
  
 THE TEST RUNS IN A DIFFERENT FILE!
 (finished task one -- shown on homework video. Next priority -- quiz? or other tasks?)
+
+1/30/24 -- class 
+
+3/12/24
+type examples: list string 
+
+Data Types
+Kenneth Leroy Busbee and Dave Braunschweig
+
+Overview
+A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.[1]
+
+Discussion
+Our interactions (inputs and outputs) with a program are treated in many languages as a stream of bytes. These bytes represent data that can be interpreted as representing values that we understand. Additionally, within a program, we process this data in various ways such as adding them up or sorting them. This data comes in different forms. Examples include:
+
+your name – a string of characters
+your age – usually an integer
+the amount of money in your pocket – usually a value measured in dollars and cents (something with a fractional part)
+A major part of understanding how to design and code programs is centered in understanding the types of data that we want to manipulate and how to manipulate that data.
+
+Common data types include:
+
+Data Type	 Represents	               Examples
+
+string	   A sequence of characters	"Hello world!" (most often used to words; not limited to. can have numbers too)
+Boolean	   logical true or false	   true, false
+nothing	   no data	                  null
+
+Output
+String s = string
+Boolean b = true
+
+Key Terms
+Boolean
+A data type representing logical true or false.
+data type
+Defines a set of values and a set of operations that can be applied on those values.
+string
+A data type representing a sequence of characters.
+
+scope (in javascript) -- what's between two curly brackets. that way, only things inside of there -- that scope -- would recognize a variable within it (so different scopes don't mess with each other's variables)
+
